@@ -1,0 +1,68 @@
+{
+  "mod_elements": [
+    {
+      "name": "DiamondappleKoghdaIedaSiediena",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondapple_koghda_ieda_siediena",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DiamondappleFoodEaten",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondapple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Diamondapple",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondapple"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.ultimate_apples.diamondapple": "Diamond apple"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ultimate_apples",
+    "modName": "Ultimate Apples Mod",
+    "version": "1.0.0",
+    "author": "Егор, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.ultimateapples",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
